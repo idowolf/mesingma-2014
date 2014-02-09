@@ -157,6 +157,7 @@ DirectoryIndex index.htm
 				<Item Name="Drive Set.vi" Type="VI" URL="../Systems/Drive/Drive Set.vi"/>
 				<Item Name="Drive Finish.vi" Type="VI" URL="../Systems/Drive/Drive Finish.vi"/>
 				<Item Name="Drive GetSensors.vi" Type="VI" URL="../Systems/Drive/Drive GetSensors.vi"/>
+				<Item Name="Drive Problem Fix.vi" Type="VI" URL="../Systems/Drive/Drive Problem Fix.vi"/>
 			</Item>
 			<Item Name="Cannon" Type="Folder">
 				<Item Name="Cannon Begin.vi" Type="VI" URL="../Systems/Cannon/Cannon Begin.vi"/>
@@ -170,7 +171,11 @@ DirectoryIndex index.htm
 				<Item Name="Cannon GetSensors.vi" Type="VI" URL="../Systems/Cannon/Cannon GetSensors.vi"/>
 			</Item>
 			<Item Name="InTake" Type="Folder">
-				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
+				<Item Name="Auto InTake" Type="Folder">
+					<Item Name="Get to lower angle.vi" Type="VI" URL="../Systems/InTake/Get to lower angle.vi"/>
+					<Item Name="Suck ball.vi" Type="VI" URL="../Systems/InTake/Suck ball.vi"/>
+					<Item Name="Get to upper angle.vi" Type="VI" URL="../Systems/InTake/Get to upper angle.vi"/>
+				</Item>
 				<Item Name="InTake Begin.vi" Type="VI" URL="../Systems/InTake/InTake Begin.vi"/>
 				<Item Name="InTake Get.vi" Type="VI" URL="../Systems/InTake/InTake Get.vi"/>
 				<Item Name="InTake Global Data.vi" Type="VI" URL="../Systems/InTake/InTake Global Data.vi"/>
@@ -178,6 +183,8 @@ DirectoryIndex index.htm
 				<Item Name="InTake Process.vi" Type="VI" URL="../Systems/InTake/InTake Process.vi"/>
 				<Item Name="InTake Set.vi" Type="VI" URL="../Systems/InTake/InTake Set.vi"/>
 				<Item Name="InTake Finish.vi" Type="VI" URL="../Systems/InTake/InTake Finish.vi"/>
+				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
+				<Item Name="InTake GetMS.vi" Type="VI" URL="../Systems/InTake/InTake GetMS.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Camera Begin.vi" Type="VI" URL="../Systems/Camera/Camera Begin.vi"/>
@@ -196,11 +203,11 @@ DirectoryIndex index.htm
 				<Item Name="WPI_GyroReset.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroReset.vi"/>
 				<Item Name="WPI_GyroSetGain.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroSetGain.vi"/>
 				<Item Name="WPI_GyroChannelToAIChannel.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroChannelToAIChannel.vi"/>
-				<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
 				<Item Name="WPI_GyroConstants.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroConstants.vi"/>
 				<Item Name="WPI_GyroDevRefToAnalogChannelDevRef.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroDevRefToAnalogChannelDevRef.vi"/>
 				<Item Name="WPI_GyroGetAngle.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroGetAngle.vi"/>
 				<Item Name="WPI_GyroGetSetRefNum.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroGetSetRefNum.vi"/>
+				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -590,18 +597,7 @@ DirectoryIndex index.htm
 				<Item Name="FPGA_CounterReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadTimerOutput.vi"/>
 				<Item Name="FPGA_EncoderReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadOutput.vi"/>
 				<Item Name="FPGA_EncoderReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadTimerOutput.vi"/>
-				<Item Name="WPI_GyroRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Get.vi"/>
 				<Item Name="WPI_GyroDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroDevRef.ctl"/>
-				<Item Name="WPI_GyroGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetSetRefNum.vi"/>
-				<Item Name="WPI_GyroGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetAngle.vi"/>
-				<Item Name="WPI_GyroDevRefToAnalogChannelDevRef.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroDevRefToAnalogChannelDevRef.vi"/>
-				<Item Name="WPI_AccumulatorGetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/Accumulator/WPI_AccumulatorGetOutput.vi"/>
-				<Item Name="FPGA_AIReadAverageBits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAverageBits.vi"/>
-				<Item Name="WPI_AccumulatorOffset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/Accumulator/WPI_AccumulatorOffset.vi"/>
-				<Item Name="FPGA_AIReadAccumulatorOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAccumulatorOutput.vi"/>
-				<Item Name="FPGA_AIReadConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadConfig.vi"/>
-				<Item Name="FPGA_AIReadAccumulatorCenter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAccumulatorCenter.vi"/>
-				<Item Name="WPI_AnalogChannelValueToVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelValueToVoltage.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
 				<Item Name="WPI_DigitalInputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputDevRef.ctl"/>
@@ -876,6 +872,16 @@ DirectoryIndex index.htm
 				<Item Name="IMU_RefNum_Simulation_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/IMU_RefNum_Simulation_Global.vi"/>
 				<Item Name="GyroReset_Simulation_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/GyroReset_Simulation_Global.vi"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+				<Item Name="WPI_GyroRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Get.vi"/>
+				<Item Name="WPI_GyroDevRefToAnalogChannelDevRef.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroDevRefToAnalogChannelDevRef.vi"/>
+				<Item Name="WPI_GyroGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetAngle.vi"/>
+				<Item Name="WPI_AccumulatorGetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/Accumulator/WPI_AccumulatorGetOutput.vi"/>
+				<Item Name="FPGA_AIReadAverageBits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAverageBits.vi"/>
+				<Item Name="WPI_AccumulatorOffset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/Accumulator/WPI_AccumulatorOffset.vi"/>
+				<Item Name="FPGA_AIReadAccumulatorOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAccumulatorOutput.vi"/>
+				<Item Name="FPGA_AIReadConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadConfig.vi"/>
+				<Item Name="FPGA_AIReadAccumulatorCenter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAccumulatorCenter.vi"/>
+				<Item Name="WPI_AnalogChannelValueToVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelValueToVoltage.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Honeywell Compass HMC6343 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Simulator/Honeywell Compass HMC6343 Simulator.lvclass"/>
@@ -902,12 +908,11 @@ DirectoryIndex index.htm
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Drive Problem Fix.vi" Type="VI" URL="../Systems/Drive/Drive Problem Fix.vi"/>
-			<Item Name="InTake GetMS.vi" Type="VI" URL="../Systems/InTake/InTake GetMS.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
