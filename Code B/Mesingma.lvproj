@@ -154,8 +154,9 @@ DirectoryIndex index.htm
 				<Item Name="Drive Get.vi" Type="VI" URL="../Systems/Drive/Drive Get.vi"/>
 				<Item Name="Drive Global Data.vi" Type="VI" URL="../Systems/Drive/Drive Global Data.vi"/>
 				<Item Name="Drive Process.vi" Type="VI" URL="../Systems/Drive/Drive Process.vi"/>
-				<Item Name="Drive set.vi" Type="VI" URL="../Systems/Drive/Drive set.vi"/>
+				<Item Name="Drive Set.vi" Type="VI" URL="../Systems/Drive/Drive Set.vi"/>
 				<Item Name="Drive Finish.vi" Type="VI" URL="../Systems/Drive/Drive Finish.vi"/>
+				<Item Name="Drive GetSensors.vi" Type="VI" URL="../Systems/Drive/Drive GetSensors.vi"/>
 			</Item>
 			<Item Name="Cannon" Type="Folder">
 				<Item Name="Cannon Begin.vi" Type="VI" URL="../Systems/Cannon/Cannon Begin.vi"/>
@@ -165,8 +166,11 @@ DirectoryIndex index.htm
 				<Item Name="Cannon Process.vi" Type="VI" URL="../Systems/Cannon/Cannon Process.vi"/>
 				<Item Name="Cannon Set.vi" Type="VI" URL="../Systems/Cannon/Cannon Set.vi"/>
 				<Item Name="Cannon Finish.vi" Type="VI" URL="../Systems/Cannon/Cannon Finish.vi"/>
+				<Item Name="Cannon Problem Fix.vi" Type="VI" URL="../Systems/Cannon/Cannon Problem Fix.vi"/>
+				<Item Name="Cannon GetSensors.vi" Type="VI" URL="../Systems/Cannon/Cannon GetSensors.vi"/>
 			</Item>
 			<Item Name="InTake" Type="Folder">
+				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
 				<Item Name="InTake Begin.vi" Type="VI" URL="../Systems/InTake/InTake Begin.vi"/>
 				<Item Name="InTake Get.vi" Type="VI" URL="../Systems/InTake/InTake Get.vi"/>
 				<Item Name="InTake Global Data.vi" Type="VI" URL="../Systems/InTake/InTake Global Data.vi"/>
@@ -871,6 +875,7 @@ DirectoryIndex index.htm
 				<Item Name="Read Simulation IMU ID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Read Simulation IMU ID.vi"/>
 				<Item Name="IMU_RefNum_Simulation_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/IMU_RefNum_Simulation_Global.vi"/>
 				<Item Name="GyroReset_Simulation_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/GyroReset_Simulation_Global.vi"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Honeywell Compass HMC6343 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Simulator/Honeywell Compass HMC6343 Simulator.lvclass"/>
@@ -897,7 +902,8 @@ DirectoryIndex index.htm
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			<Item Name="Drive Problem Fix.vi" Type="VI" URL="../Systems/Drive/Drive Problem Fix.vi"/>
+			<Item Name="InTake GetMS.vi" Type="VI" URL="../Systems/InTake/InTake GetMS.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
