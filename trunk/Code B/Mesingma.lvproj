@@ -154,7 +154,7 @@ DirectoryIndex index.htm
 				<Item Name="Drive Get.vi" Type="VI" URL="../Systems/Drive/Drive Get.vi"/>
 				<Item Name="Drive Global Data.vi" Type="VI" URL="../Systems/Drive/Drive Global Data.vi"/>
 				<Item Name="Drive Process.vi" Type="VI" URL="../Systems/Drive/Drive Process.vi"/>
-				<Item Name="Drive Set.vi" Type="VI" URL="../Systems/Drive/Drive Set.vi"/>
+				<Item Name="Drive set.vi" Type="VI" URL="../Systems/Drive/Drive set.vi"/>
 				<Item Name="Drive Finish.vi" Type="VI" URL="../Systems/Drive/Drive Finish.vi"/>
 				<Item Name="Drive GetSensors.vi" Type="VI" URL="../Systems/Drive/Drive GetSensors.vi"/>
 				<Item Name="Drive Problem Fix.vi" Type="VI" URL="../Systems/Drive/Drive Problem Fix.vi"/>
@@ -175,6 +175,7 @@ DirectoryIndex index.htm
 					<Item Name="Get to lower angle.vi" Type="VI" URL="../Systems/InTake/Get to lower angle.vi"/>
 					<Item Name="Suck ball.vi" Type="VI" URL="../Systems/InTake/Suck ball.vi"/>
 					<Item Name="Get to upper angle.vi" Type="VI" URL="../Systems/InTake/Get to upper angle.vi"/>
+					<Item Name="Auto InTake.vi" Type="VI" URL="../Systems/InTake/Auto InTake.vi"/>
 				</Item>
 				<Item Name="InTake Begin.vi" Type="VI" URL="../Systems/InTake/InTake Begin.vi"/>
 				<Item Name="InTake Get.vi" Type="VI" URL="../Systems/InTake/InTake Get.vi"/>
@@ -910,10 +911,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
