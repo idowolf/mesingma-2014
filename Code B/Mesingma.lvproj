@@ -184,7 +184,7 @@ DirectoryIndex index.htm
 				<Item Name="InTake Set.vi" Type="VI" URL="../Systems/InTake/InTake Set.vi"/>
 				<Item Name="InTake Finish.vi" Type="VI" URL="../Systems/InTake/InTake Finish.vi"/>
 				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
-				<Item Name="InTake GetMS.vi" Type="VI" URL="../Systems/InTake/InTake GetMS.vi"/>
+				<Item Name="InTake GetValues.vi" Type="VI" URL="../Systems/InTake/InTake GetValues.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Camera Begin.vi" Type="VI" URL="../Systems/Camera/Camera Begin.vi"/>
@@ -882,6 +882,7 @@ DirectoryIndex index.htm
 				<Item Name="FPGA_AIReadConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadConfig.vi"/>
 				<Item Name="FPGA_AIReadAccumulatorCenter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIReadAccumulatorCenter.vi"/>
 				<Item Name="WPI_AnalogChannelValueToVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelValueToVoltage.vi"/>
+				<Item Name="WPI_GyroGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetSetRefNum.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Honeywell Compass HMC6343 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Simulator/Honeywell Compass HMC6343 Simulator.lvclass"/>
@@ -908,11 +909,11 @@ DirectoryIndex index.htm
 			<Item Name="ode.dll" Type="Document" URL="ode.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
