@@ -195,6 +195,8 @@ DirectoryIndex index.htm
 				<Item Name="Degrees to the right target.vi" Type="VI" URL="../Systems/Autonomous/Degrees to the right target.vi"/>
 				<Item Name="Distance to horizontal distance.vi" Type="VI" URL="../Systems/Autonomous/Distance to horizontal distance.vi"/>
 				<Item Name="Window Motor While MS.vi" Type="VI" URL="../Systems/Autonomous/Window Motor While MS.vi"/>
+				<Item Name="Servo Angle Set.vi" Type="VI" URL="../Systems/Autonomous/Servo Angle Set.vi"/>
+				<Item Name="Selenoid Set.vi" Type="VI" URL="../Systems/Autonomous/Selenoid Set.vi"/>
 			</Item>
 			<Item Name="Sensors" Type="Folder">
 				<Item Name="Sensors Global Values.vi" Type="VI" URL="../Systems/Sensors/Sensors Global Values.vi"/>
@@ -205,7 +207,11 @@ DirectoryIndex index.htm
 				<Item Name="Sensors Finish.vi" Type="VI" URL="../Systems/Sensors/Sensors Finish.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
+				<Item Name="Camera Global Data.vi" Type="VI" URL="../Systems/Camera/Camera Global Data.vi"/>
 				<Item Name="Camera Begin.vi" Type="VI" URL="../Systems/Camera/Camera Begin.vi"/>
+				<Item Name="Camera Process.vi" Type="VI" URL="../Systems/Camera/Camera Process.vi"/>
+				<Item Name="Camera Get Sensors.vi" Type="VI" URL="../Systems/Camera/Camera Get Sensors.vi"/>
+				<Item Name="Camera Set.vi" Type="VI" URL="../Systems/Camera/Camera Set.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Specials" Type="Folder">
@@ -214,6 +220,8 @@ DirectoryIndex index.htm
 			<Item Name="Xbox Layout.vi" Type="VI" URL="../Specials/Xbox Layout.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Drive Set.vi" Type="VI" URL="../Systems/Autonomous/Drive Set.vi"/>
+		<Item Name="Set Intake.vi" Type="VI" URL="../Systems/Autonomous/Set Intake.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -787,6 +795,13 @@ DirectoryIndex index.htm
 				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
 				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
+				<Item Name="FPGA_DIOReadPWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadPWMValue.vi"/>
+				<Item Name="WPI_DigitalModuleGetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetPWM.vi"/>
+				<Item Name="WPI_PWMGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMGetValue.vi"/>
+				<Item Name="WPI_ServoGetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetPosition.vi"/>
+				<Item Name="WPI_ServoGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetAngle.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
