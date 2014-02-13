@@ -150,27 +150,27 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Systems" Type="Folder">
 			<Item Name="Drive" Type="Folder">
-				<Item Name="Drive Modifications.vi" Type="VI" URL="../Systems/Drive/Drive Modifications.vi"/>
+				<Item Name="Drive Global Data.vi" Type="VI" URL="../Systems/Drive/Drive Global Data.vi"/>
 				<Item Name="Drive Begin.vi" Type="VI" URL="../Systems/Drive/Drive Begin.vi"/>
 				<Item Name="Drive Get.vi" Type="VI" URL="../Systems/Drive/Drive Get.vi"/>
-				<Item Name="Drive Global Data.vi" Type="VI" URL="../Systems/Drive/Drive Global Data.vi"/>
 				<Item Name="Drive Process.vi" Type="VI" URL="../Systems/Drive/Drive Process.vi"/>
-				<Item Name="Drive set.vi" Type="VI" URL="../Systems/Drive/Drive set.vi"/>
-				<Item Name="Drive Finish.vi" Type="VI" URL="../Systems/Drive/Drive Finish.vi"/>
 				<Item Name="Drive GetSensors.vi" Type="VI" URL="../Systems/Drive/Drive GetSensors.vi"/>
+				<Item Name="Drive Modifications.vi" Type="VI" URL="../Systems/Drive/Drive Modifications.vi"/>
+				<Item Name="Drive set.vi" Type="VI" URL="../Systems/Drive/Drive set.vi"/>
 				<Item Name="Drive Problem Fix.vi" Type="VI" URL="../Systems/Drive/Drive Problem Fix.vi"/>
+				<Item Name="Drive Finish.vi" Type="VI" URL="../Systems/Drive/Drive Finish.vi"/>
 			</Item>
 			<Item Name="Cannon" Type="Folder">
+				<Item Name="Cannon Global Data.vi" Type="VI" URL="../Systems/Cannon/Cannon Global Data.vi"/>
+				<Item Name="Shooting Power.vi" Type="VI" URL="../Systems/Cannon/Shooting Power.vi"/>
 				<Item Name="Cannon Begin.vi" Type="VI" URL="../Systems/Cannon/Cannon Begin.vi"/>
 				<Item Name="Cannon Get.vi" Type="VI" URL="../Systems/Cannon/Cannon Get.vi"/>
-				<Item Name="Cannon Global Data.vi" Type="VI" URL="../Systems/Cannon/Cannon Global Data.vi"/>
-				<Item Name="Cannon Modifications.vi" Type="VI" URL="../Systems/Cannon/Cannon Modifications.vi"/>
 				<Item Name="Cannon Process.vi" Type="VI" URL="../Systems/Cannon/Cannon Process.vi"/>
-				<Item Name="Cannon Set.vi" Type="VI" URL="../Systems/Cannon/Cannon Set.vi"/>
-				<Item Name="Cannon Finish.vi" Type="VI" URL="../Systems/Cannon/Cannon Finish.vi"/>
-				<Item Name="Cannon Problem Fix.vi" Type="VI" URL="../Systems/Cannon/Cannon Problem Fix.vi"/>
 				<Item Name="Cannon GetSensors.vi" Type="VI" URL="../Systems/Cannon/Cannon GetSensors.vi"/>
-				<Item Name="Shooting Power.vi" Type="VI" URL="../Systems/Cannon/Shooting Power.vi"/>
+				<Item Name="Cannon Modifications.vi" Type="VI" URL="../Systems/Cannon/Cannon Modifications.vi"/>
+				<Item Name="Cannon Set.vi" Type="VI" URL="../Systems/Cannon/Cannon Set.vi"/>
+				<Item Name="Cannon Problem Fix.vi" Type="VI" URL="../Systems/Cannon/Cannon Problem Fix.vi"/>
+				<Item Name="Cannon Finish.vi" Type="VI" URL="../Systems/Cannon/Cannon Finish.vi"/>
 			</Item>
 			<Item Name="InTake" Type="Folder">
 				<Item Name="Auto InTake" Type="Folder">
@@ -179,15 +179,15 @@ DirectoryIndex index.htm
 					<Item Name="Get to upper angle.vi" Type="VI" URL="../Systems/InTake/Get to upper angle.vi"/>
 					<Item Name="Auto InTake.vi" Type="VI" URL="../Systems/InTake/Auto InTake.vi"/>
 				</Item>
+				<Item Name="InTake Global Data.vi" Type="VI" URL="../Systems/InTake/InTake Global Data.vi"/>
 				<Item Name="InTake Begin.vi" Type="VI" URL="../Systems/InTake/InTake Begin.vi"/>
 				<Item Name="InTake Get.vi" Type="VI" URL="../Systems/InTake/InTake Get.vi"/>
-				<Item Name="InTake Global Data.vi" Type="VI" URL="../Systems/InTake/InTake Global Data.vi"/>
-				<Item Name="InTake Set.vi" Type="VI" URL="../Systems/InTake/InTake Set.vi"/>
-				<Item Name="InTake Modifications.vi" Type="VI" URL="../Systems/InTake/InTake Modifications.vi"/>
 				<Item Name="InTake Process.vi" Type="VI" URL="../Systems/InTake/InTake Process.vi"/>
-				<Item Name="InTake Finish.vi" Type="VI" URL="../Systems/InTake/InTake Finish.vi"/>
-				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
 				<Item Name="InTake GetValues.vi" Type="VI" URL="../Systems/InTake/InTake GetValues.vi"/>
+				<Item Name="InTake Modifications.vi" Type="VI" URL="../Systems/InTake/InTake Modifications.vi"/>
+				<Item Name="InTake Set.vi" Type="VI" URL="../Systems/InTake/InTake Set.vi"/>
+				<Item Name="InTake Problem Fix.vi" Type="VI" URL="../Systems/InTake/InTake Problem Fix.vi"/>
+				<Item Name="InTake Finish.vi" Type="VI" URL="../Systems/InTake/InTake Finish.vi"/>
 			</Item>
 			<Item Name="Autonomous" Type="Folder">
 				<Item Name="Degrees To Correct Target.vi" Type="VI" URL="../Systems/Autonomous/Degrees To Correct Target.vi"/>
@@ -196,7 +196,14 @@ DirectoryIndex index.htm
 				<Item Name="Distance to horizontal distance.vi" Type="VI" URL="../Systems/Autonomous/Distance to horizontal distance.vi"/>
 				<Item Name="Window Motor While MS.vi" Type="VI" URL="../Systems/Autonomous/Window Motor While MS.vi"/>
 			</Item>
-			<Item Name="Sensors" Type="Folder"/>
+			<Item Name="Sensors" Type="Folder">
+				<Item Name="Sensors Global Values.vi" Type="VI" URL="../Systems/Sensors/Sensors Global Values.vi"/>
+				<Item Name="Sensors Begin.vi" Type="VI" URL="../Systems/Sensors/Sensors Begin.vi"/>
+				<Item Name="Sensors Proccess.vi" Type="VI" URL="../Systems/Sensors/Sensors Proccess.vi"/>
+				<Item Name="Sensors Get Values.vi" Type="VI" URL="../Systems/Sensors/Sensors Get Values.vi"/>
+				<Item Name="Sensors Modifications.vi" Type="VI" URL="../Systems/Sensors/Sensors Modifications.vi"/>
+				<Item Name="Sensors Finish.vi" Type="VI" URL="../Systems/Sensors/Sensors Finish.vi"/>
+			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Camera Begin.vi" Type="VI" URL="../Systems/Camera/Camera Begin.vi"/>
 			</Item>
@@ -730,7 +737,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_ServoGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetSetRefNum.vi"/>
 				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
 				<Item Name="WPI_SolenoidClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidClose.vi"/>
-				<Item Name="WPI_ServoClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoClose.vi"/>
 				<Item Name="WPI_EncoderStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderStop.vi"/>
 				<Item Name="FPGA_AnalogTriggerSource.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerSource.ctl"/>
 				<Item Name="FPGA_AnalogTriggerConvertFPGAToSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerConvertFPGAToSource.vi"/>
@@ -777,6 +783,10 @@ DirectoryIndex index.htm
 				<Item Name="WPI_ServoSetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetAngle.vi"/>
 				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
+				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
+				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
+				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
+				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -785,8 +795,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
-			<Item Name="WPI_GyroClose.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroClose.vi"/>
-			<Item Name="WPI_GyroRefNum Registry Get.vi" Type="VI" URL="../Sensors/Gyro/WPI_GyroRefNum Registry Get.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
