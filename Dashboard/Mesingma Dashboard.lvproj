@@ -213,32 +213,32 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="2014 Ball Detection.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/2014 Ball Detection.vi"/>
-			<Item Name="2014 Target Detection.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/2014 Target Detection.vi"/>
-			<Item Name="Draw Cross.vi" Type="VI" URL="../Draw Cross.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute DistanceToTarget.vi"/>
-			<Item Name="TargetType.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/TargetType.ctl"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute Target Distances.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Label Targets.vi"/>
-			<Item Name="Rank HV combos.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rank HV combos.vi"/>
-			<Item Name="Separate Particles.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Separate Particles.vi"/>
-			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Score and Rank Target Objects.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rectangularity Score.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Aspect Ratio Score.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Sorted Particle Report.vi"/>
-			<Item Name="Process Image for Target.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Process Image for Target.vi"/>
-			<Item Name="Calibration Helper.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Calibration Helper.vi"/>
-			<Item Name="Normalize Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Normalize Path.vi"/>
-			<Item Name="Label Particles.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Label Particles.vi"/>
-			<Item Name="Compare Rects.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Compare Rects.vi"/>
-			<Item Name="Normalized to Scored.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Normalized to Scored.vi"/>
-			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Circle Coverage Score.vi"/>
-			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Score and Sort Objects.vi"/>
-			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Score and Rank Objects.vi"/>
-			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Create Annulus from Rectangle.vi"/>
-			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Predict Search Rectangle from Particle.vi"/>
-			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Fit Circle to Find Ball.vi"/>
-			<Item Name="Process Image for Balls.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Process Image for Balls.vi"/>
+			<Item Name="2014 Ball Detection.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/2014 Ball Detection.vi"/>
+			<Item Name="Process Image for Balls.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Process Image for Balls.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Sorted Particle Report.vi"/>
+			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Predict Search Rectangle from Particle.vi"/>
+			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Create Annulus from Rectangle.vi"/>
+			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Fit Circle to Find Ball.vi"/>
+			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Score and Rank Objects.vi"/>
+			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Score and Sort Objects.vi"/>
+			<Item Name="Normalized to Scored.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Normalized to Scored.vi"/>
+			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Circle Coverage Score.vi"/>
+			<Item Name="Compare Rects.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Compare Rects.vi"/>
+			<Item Name="Label Particles.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Label Particles.vi"/>
+			<Item Name="Normalize Path.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Normalize Path.vi"/>
+			<Item Name="Calibration Helper.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Ball Detection/Calibration Helper.vi"/>
+			<Item Name="Draw Cross.vi" Type="VI" URL="../../../../../Downloads/Draw Cross.vi"/>
+			<Item Name="2014 Target Detection.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/2014 Target Detection.vi"/>
+			<Item Name="TargetType.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/TargetType.ctl"/>
+			<Item Name="Process Image for Target.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Process Image for Target.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Aspect Ratio Score.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rectangularity Score.vi"/>
+			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Score and Rank Target Objects.vi"/>
+			<Item Name="Separate Particles.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Separate Particles.vi"/>
+			<Item Name="Rank HV combos.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Rank HV combos.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Label Targets.vi"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute Target Distances.vi"/>
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/examples/FRC/Vision/2014 Target Detection/Compute DistanceToTarget.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
