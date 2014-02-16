@@ -207,6 +207,7 @@ DirectoryIndex index.htm
 				<Item Name="Sensors Get Values.vi" Type="VI" URL="../Systems/Sensors/Sensors Get Values.vi"/>
 				<Item Name="Sensors Modifications.vi" Type="VI" URL="../Systems/Sensors/Sensors Modifications.vi"/>
 				<Item Name="Sensors Finish.vi" Type="VI" URL="../Systems/Sensors/Sensors Finish.vi"/>
+				<Item Name="Send Encoder Values to Dashboard.vi" Type="VI" URL="../Systems/Drive/Send Encoder Values to Dashboard.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Camera Begin.vi" Type="VI" URL="../Systems/Camera/Camera Begin.vi"/>
@@ -219,7 +220,6 @@ DirectoryIndex index.htm
 			<Item Name="Xbox Layout.vi" Type="VI" URL="../Specials/Xbox Layout.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Send Encoder Values to Dashboard.vi" Type="VI" URL="../Systems/Drive/Send Encoder Values to Dashboard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
